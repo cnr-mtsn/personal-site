@@ -9,7 +9,8 @@ const StyledContainer = styled.div`
     font-size: 2.5rem;
     width: 100%;
     text-align: center;
-    font-family: "codePro", 'Courier New', Courier, monospace;
+    font-family: "Operator mono";
+    font-weight: 400;
   }
   .home-projects {
     display: flex;

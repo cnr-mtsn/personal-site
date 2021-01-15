@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import { Link } from "gatsby";
 import { IoArrowForwardCircle } from "react-icons/io5";
-import Img from 'gatsby-image';
 import { device } from "../utils/device";
 
 const StyledContainer = styled(motion.header)`
@@ -215,7 +214,7 @@ const Menu = ({ open, setOpen }) => {
 					onClick={() => setOpen(!open)}
 				/>
 				<Link to="/">
-					<Img
+					<img
 						src="https://res.cloudinary.com/cnrmtsn/image/upload/v1607888019/personal-site/icon-logo_b5av21.svg"
 						alt="icon logo"
 					/>
@@ -225,7 +224,7 @@ const Menu = ({ open, setOpen }) => {
 				<Link className="mobile-nav-link" activeClassName="mobile-nav-link-active" to="/">
 					home
 				</Link>
-				<Link
+				{/* <Link
 					className="mobile-nav-link"
 					activeClassName="mobile-nav-link-active"
 					to="/Projects">
@@ -233,7 +232,7 @@ const Menu = ({ open, setOpen }) => {
 				</Link>
 				<Link className="mobile-nav-link" activeClassName="mobile-nav-link-active" to="/About">
 					About Me
-				</Link>
+				</Link> */}
 				<Link className="mobile-nav-link" activeClassName="mobile-nav-link-active" to="/Contact">
 					contact
 				</Link>
@@ -256,7 +255,7 @@ export default function Nav() {
 						home
 					</Link>
 				</li>
-				<li>
+				{/* <li>
 					<Link className="nav-link" activeClassName="nav-link-active" to="/Projects">
 						projects
 					</Link>
@@ -265,7 +264,7 @@ export default function Nav() {
 					<Link className="nav-link" activeClassName="nav-link-active" to="/About">
 						about me
 					</Link>
-				</li>
+				</li> */}
 				<li>
 					<Link className="nav-link" activeClassName="nav-link-active" to="/Contact">
 						contact

@@ -6,8 +6,10 @@ import { device } from "../utils/device";
 const StyledContainer = styled.section`
   background: black;
   margin: 3rem 0 0 0;
-  padding: 0 0 1rem 0;
   width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
   div {
     width: 90%;
     margin: 0 auto;
@@ -18,7 +20,7 @@ const StyledContainer = styled.section`
     transform: translateY(-2rem);
   }
   h3 {
-    color:white;
+    color: white;
     font-family: "codePro";
     font-size: 1.5rem;
     text-align: center;
@@ -50,26 +52,29 @@ const StyledContainer = styled.section`
   }
   @media ${device.laptop} {
     img {
-      height: 500px;
+      height: 450px;
       width: auto;
-      transform: translateX(5rem) translateY(-2rem);
+      transform: translateX(-4rem) translateY(-1rem);
     }
     div {
       display: flex;
       justify-content: space-between;
+      align-items: center;
     }
     .hero-info {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items: flex-end;
     }
     h3 {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+      font-weight: 400;
     }
     p {
       width: 80%;
-      font-size: 1.5rem;
+      font-size: 1rem;
+      text-align: right;
     }
   }
 `;
