@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { device } from "../utils/device";
 
-
 const StyledContainer = styled.section`
   background: black;
   margin: 3rem 0 0 0;

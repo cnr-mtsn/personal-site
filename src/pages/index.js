@@ -1,9 +1,14 @@
-import * as React from "react"
-import Home from './Home';
+import * as React from "react";
+import Home from "./Home";
+import Contact from "./Contact";
 
+import { Router } from "@reach/router";
 
 const IndexPage = () => (
-  <Home />
-)
+	<Router>
+		<Home path="/" />
+		<Contact path="/contact" />
+	</Router>
+);
 
-export default IndexPage
+export default IndexPage;

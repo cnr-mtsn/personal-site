@@ -1,5 +1,6 @@
 import React from "react";
 import { PageWrapper } from "../utils/style";
+import ContactForm from '../components/ContactForm';
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -33,21 +34,7 @@ export default function Contact() {
 	return (
 		<PageWrapper>
 			<Container>
-				<form name="Contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-					<input type="hidden" name="bot-field" />
-					<input type="hidden" name="form-name" value="Contact" />
-					<label htmlFor="firstName">First Name</label>
-					<input type="text" name="firstName" required />
-					<label htmlFor="lastName">Last Name</label>
-					<input type="text" name="lastName" />
-					<label htmlFor="email">Email</label>
-					<input type="email" name="email" required />
-					<label htmlFor="phone">Phone</label>
-					<input type="tel" name="phone" />
-					<label htmlFor="message">Message</label>
-					<textarea name="message" required />
-					<button type="submit">Send Message</button>
-				</form>
+				<ContactForm/>
 			</Container>
 		</PageWrapper>
 	);
