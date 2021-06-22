@@ -9,6 +9,7 @@ export default function Page({ children }) {
 	const router = useRouter();
 	return (
 		<div className={styles.container}>
+
 			<Head>
 				<title>
 					Conner Matson |{" "}
@@ -18,11 +19,11 @@ export default function Page({ children }) {
 				<meta name="description" content="My personal development portfolio" />
 				<link rel="icon" href="/logo.svg" />
 			</Head>
+
 			<Header />
-
 			<main>{children}</main>
-
 			<Footer />
+
 		</div>
 	);
 }
