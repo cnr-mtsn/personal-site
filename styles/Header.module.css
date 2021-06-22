@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/* outline: 1px solid black; */
+	padding: 0.5rem;
+}
+.container img {
+	cursor: pointer;
+}
+.nav ul a {
+	padding: 0.5rem;
+	transition: 0.5s ease;
+	text-transform: capitalize;
+}
+.nav ul a:hover {
+	color: #403f3fb8;
+}

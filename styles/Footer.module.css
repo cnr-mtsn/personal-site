@@ -1,0 +1,45 @@
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-image: url("/bottomGradient.png");
+	background-size: cover;
+	height: 180px;
+	transition: 0.5s ease all;
+}
+.footer a {
+	padding: 0.5rem;
+}
+@media (min-width: 320px) {
+	/* smartphones, iPhone, portrait 480x320 phones */
+	.footer {
+		height: 80px;
+	}
+}
+@media (min-width: 481px) {
+	/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+	.footer {
+		height: 100px;
+	}
+}
+@media (min-width: 641px) {
+	/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+	.footer {
+		height: 120px;
+	}
+}
+@media (min-width: 961px) {
+	/* tablet, landscape iPad, lo-res laptops ands desktops */
+	.footer {
+		height: 140px;
+	}
+}
+@media (min-width: 1025px) {
+	/* big landscape tablets, laptops, and desktops */
+	.footer {
+		height: 160px;
+	}
+}
+@media (min-width: 1281px) {
+	/* hi-res laptops and desktops */
+}
