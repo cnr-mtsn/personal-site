@@ -8,7 +8,7 @@ export default function Header() {
 		<header className={styles.container}>
 			<Link href="/">
 				<a>
-					<Image height="100" width="100" src="/logo.png" alt="Conner Matson Development" priority/>
+					<Image height="100" width="100" src="/logo.png" alt="Conner Matson Development" loading="eager"/>
 				</a>
 			</Link>
 			<nav className={styles.nav}>

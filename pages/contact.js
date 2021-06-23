@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function contact() {
 	return (
 		<div className={styles.container}>
-			<Image src="/mail.png" height="300" width="300" priority/>
+			<Image src="/mail.png" height="300" width="300" loading="eager"/>
 			<ContactForm/>
 		</div>
 	);
