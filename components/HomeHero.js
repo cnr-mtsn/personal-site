@@ -6,7 +6,7 @@ import Icon from "../components/Icon";
 export default function HomeHero() {
 	return (
 		<div className={styles.heroInfo}>
-			<Image src="/homeHero.png" height="400" width="400" />
+			<Image src="/homeHero.png" height="400" width="400" priority />
 			<div className={styles.inner}>
 				<p className={styles.description}>
 					I am a <span className={styles.gradientText}>Frontend Developer</span> from Kansas City, MO. I build
