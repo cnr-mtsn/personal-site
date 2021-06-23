@@ -23,7 +23,7 @@ export default function ContactForm() {
 			<input type="tel" name="phone" id="phone" placeholder="Phone"/>
 			<label htmlFor="message" value="Message"/>
 			<textarea name="message" id="message" placeholder="What can I do for you?"/>
-			<button type="submit">Send ✉️</button>
+			<button type="submit">Send Message</button>
 		</form>
 	);
 }

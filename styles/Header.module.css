@@ -3,8 +3,7 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	/* outline: 1px solid black; */
-	padding: 0.5rem;
+	padding: 2rem;
 }
 .container img {
 	cursor: pointer;
