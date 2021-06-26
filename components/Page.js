@@ -20,8 +20,8 @@ export default function Page({ children }) {
 				<meta name="description" content="My personal development portfolio" />
 				<link rel="icon" href="favicon.ico" />
 
-				<link rel="icon" href="/favicon.ico">
-				<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+				<link rel="icon" href="/favicon.ico"/>
+				<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
 
 
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
