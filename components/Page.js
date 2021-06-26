@@ -18,7 +18,7 @@ export default function Page({ children }) {
 					Conner Matson | {path}
 				</title>
 				<meta name="description" content="My personal development portfolio" />
-				<link rel="icon" href="/logo.png" />
+				<link rel="icon" href="favicon.ico" />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 				<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet" />
