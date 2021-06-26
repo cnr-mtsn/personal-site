@@ -4,12 +4,14 @@
 	align-items: flex-end;
 	background-image: url("/bottomGradient.png");
 	background-size: cover;
-	height: 180px;
+	max-height: 160px;
 	transition: 0.5s ease all;
 }
 .footer a {
-	padding: 0.5rem;
+	padding: 1rem;
+	cursor: pointer;
 }
+
 @media (min-width: 320px) {
 	/* smartphones, iPhone, portrait 480x320 phones */
 	.footer {
