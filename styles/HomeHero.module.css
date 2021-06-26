@@ -21,10 +21,18 @@
 	text-align: center;
 	font-size: 1.3rem;
 }
+.gradientText {
+	background: -webkit-linear-gradient(#fe8152, #ef1fe4);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	font-style: italic;
+	font-size: 1.2rem;
+}
 
 @media (min-width: 961px) {
 	/* tablet, landscape iPad, lo-res laptops ands desktops */
-
 	.heroInfo {
 		flex-direction: row;
 		gap: 3rem;
@@ -36,12 +44,7 @@
 	.inner {
 		width: 40%;
 	}
-}
-.gradientText {
-	background: -webkit-linear-gradient(#fe8152, #ef1fe4);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	color: transparent;
-	font-style: italic;
+	.gradientText {
+		font-size: 1.8rem;
+	}
 }
